@@ -99,11 +99,11 @@ When("exibir mensagem “Usuário ou senha inválidos”", () => {
     })
 })
 
-When("informo uma senha", () => {
+When("informar uma senha", () => {
     cy.get('#mat-input-1').clear().type(payloadLogin.senha)
 }) 
 
-When("clico no ícone “olho”", () => {
+When("clicar no ícone “olho”", () => {
     cy.contains('span[class="mat-button-wrapper"]', 'visibility').click()
 }) 
 
@@ -127,7 +127,7 @@ When("o ícone “olho” passa a ser o ícone “olho com traço”", () => {
     })
 }) 
 
-When("clico no ícone “olho com traço”", () => {
+When("clicar no ícone “olho com traço”", () => {
     cy.contains('span[class="mat-button-wrapper"]', 'visibility_off').click()
 })
 

@@ -47,14 +47,14 @@ Scenario: Informar e-mail não cadastrado
     Then exibir mensagem “Usuário ou senha inválidos”
 
 Scenario: Visualizar senha
-    When informo uma senha
-        And clico no ícone “olho”
+    When informar uma senha
+        And clicar no ícone “olho”
     Then exibir a senha
         And o ícone “olho” passa a ser o ícone “olho com traço”
 
 Scenario: Não visualizar senha
-    When informo uma senha
-        And clico no ícone “olho”
-        And clico no ícone “olho com traço”
+    When informar uma senha
+        And clicar no ícone “olho”
+        And clicar no ícone “olho com traço”
     Then esconder a senha 
         And o ícone “olho com traço” passa a ser o ícone “olho”
