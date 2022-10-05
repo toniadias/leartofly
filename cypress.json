@@ -1,0 +1,12 @@
+{
+    "viewportWidth": 1024,
+    "viewportHeight": 768,
+    "defaultCommandTimeout": 200000,
+    "baseUrl": "https://hml-app.learntofly.global/login",
+    "video": false,
+    "testFiles": "**/*.{feature,features}",
+    "screenshotOnRunFailure": false,
+    "env": {
+        "token": ""
+    }
+}

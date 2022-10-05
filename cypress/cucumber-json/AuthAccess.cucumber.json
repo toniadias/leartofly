@@ -1,0 +1,502 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Efetuar Login",
+    "line": 1,
+    "id": "efetuar-login",
+    "tags": [],
+    "uri": "AuthAccess.feature",
+    "elements": [
+      {
+        "id": "efetuar-login;efetuar-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Efetuar Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "informar e-mail e senha válidos",
+            "result": {
+              "status": "passed",
+              "duration": 4095000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "clicar no botão “Continuar”",
+            "result": {
+              "status": "passed",
+              "duration": 165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "realizar login no sistema",
+            "result": {
+              "status": "passed",
+              "duration": 4872000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "efetuar-login;não-informar-e-mail",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Não informar e-mail",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "não informar o e-mail e informar senha",
+            "result": {
+              "status": "passed",
+              "duration": 3271000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "clicar no botão “Continuar”",
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "destacar o campo e-mail",
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "exibir no campo “E-mail obrigatório”",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "efetuar-login;não-informar-senha",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Não informar senha",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "informar o e-mail e não informar senha",
+            "result": {
+              "status": "passed",
+              "duration": 1991000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "clicar no botão “Continuar”",
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "destacar o campo senha",
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "efetuar-login;não-informar-dados",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Não informar dados",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "não informar o e-mail e não informar senha",
+            "result": {
+              "status": "passed",
+              "duration": 2383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "clicar no botão “Continuar”",
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "destacar o campo e-mail",
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "destacar o campo senha",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "exibir no campo “E-mail obrigatório”",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "efetuar-login;informar-dados-inválidos",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Informar dados inválidos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "informar e-mail e senha inválidos",
+            "result": {
+              "status": "passed",
+              "duration": 1956000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "clicar no botão “Continuar”",
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "destacar o campo e-mail",
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "destacar o campo senha",
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "exibir no campo “E-mail inválido”",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "efetuar-login;informar-e-mail-inválido",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Informar e-mail inválido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "informar e-mail inválido e senha",
+            "result": {
+              "status": "passed",
+              "duration": 1943000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "clicar no botão “Continuar”",
+            "result": {
+              "status": "passed",
+              "duration": 148000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "destacar o campo e-mail",
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "exibir no campo “E-mail inválido”",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "efetuar-login;informar-senha-inválida",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Informar senha inválida",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "informar e-mail válido e senha inválida",
+            "result": {
+              "status": "passed",
+              "duration": 1956000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "clicar no botão “Continuar”",
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "destacar o campo senha",
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "efetuar-login;informar-e-mail-não-cadastrado",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Informar e-mail não cadastrado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "informar e-mail não cadastrado e senha",
+            "result": {
+              "status": "passed",
+              "duration": 2128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "clicar no botão “Continuar”",
+            "result": {
+              "status": "passed",
+              "duration": 152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "exibir mensagem “Usuário ou senha inválidos”",
+            "result": {
+              "status": "passed",
+              "duration": 746000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "efetuar-login;visualizar-senha",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "Visualizar senha",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "informo uma senha",
+            "result": {
+              "status": "passed",
+              "duration": 2615000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "clico no ícone “olho”",
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "exibir a senha",
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "o ícone “olho” passa a ser o ícone “olho com traço”",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "efetuar-login;não-visualizar-senha",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "Não visualizar senha",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "informo uma senha",
+            "result": {
+              "status": "passed",
+              "duration": 1749000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "clico no ícone “olho”",
+            "result": {
+              "status": "passed",
+              "duration": 132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "clico no ícone “olho com traço”",
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "esconder a senha",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "o ícone “olho com traço” passa a ser o ícone “olho”",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+    "url": "https://hml-app.learntofly.global/login",
+    "email": "testeqa@mailinator.com",
+    "senha": "123456",
+    "emailInvalido": "testeqa",
+    "senhaInvalida": "123",
+    "emailInexistente": "teste@mailinator.com"
+}
